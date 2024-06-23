@@ -654,25 +654,36 @@ function keybdClick(c) {
 function loadGames() {
     my.games = [];
 
-    addGame("add-col-1", [["Add by 1", "Add by 1"], "+", [1, 1, 1, 10], "Add"]);
-    addGame("add-col-2", [["Add by 2", "Add by 2"], "+", [2, 1, 2, 10], "Add"]);
-    addGame("add-col-3", [["Add by 3", "Add by 3"], "+", [3, 1, 3, 10], "Add"]);
-    addGame("add-col-4", [["Add by 4", "Add by 4"], "+", [4, 1, 4, 10], "Add"]);
-    addGame("add-col-5", [["Add by 5", "Add by 5"], "+", [5, 1, 5, 10], "Add"]);
-    addGame("add-col-6", [["Add by 6", "Add by 6"], "+", [6, 1, 6, 10], "Add"]);
-    addGame("add-col-7", [["Add by 7", "Add by 7"], "+", [7, 1, 7, 10], "Add"]);
-    addGame("add-col-8", [["Add by 8", "Add by 8"], "+", [8, 1, 8, 10], "Add"]);
-    addGame("add-col-9", [["Add by 9", "Add by 9"], "+", [9, 1, 9, 10], "Add"]);
-    addGame("add-col-diagnostic", [["10 x 10", "10 x 10"], "+", [1, 1, 10, 10], "Add"]);
+    addGame("add-row-1", [["Add by 1", "Add by 1"], "+", [1, 1, 1, 10], "Add"]);
+    addGame("add-row-2", [["Add by 2", "Add by 2"], "+", [2, 1, 2, 10], "Add"]);
+    addGame("add-row-3", [["Add by 3", "Add by 3"], "+", [3, 1, 3, 10], "Add"]);
+    addGame("add-row-4", [["Add by 4", "Add by 4"], "+", [4, 1, 4, 10], "Add"]);
+    addGame("add-row-5", [["Add by 5", "Add by 5"], "+", [5, 1, 5, 10], "Add"]);
+    addGame("add-row-6", [["Add by 6", "Add by 6"], "+", [6, 1, 6, 10], "Add"]);
+    addGame("add-row-7", [["Add by 7", "Add by 7"], "+", [7, 1, 7, 10], "Add"]);
+    addGame("add-row-8", [["Add by 8", "Add by 8"], "+", [8, 1, 8, 10], "Add"]);
+    addGame("add-row-9", [["Add by 9", "Add by 9"], "+", [9, 1, 9, 10], "Add"]);
+    addGame("add-diagnostic", [["10 x 10", "10 x 10"], "+", [1, 1, 10, 10], "Add"]);
     // addGame("add-diagnostic-1x1", [["Diagnostic (_ + _)", "Diagnostic (_ + _)"], "+", [1, 1, 9, 10], "Add"]);
     // addGame("add-diagnostic-1x2", [["Diagnostic (_ + _ _)", "Diagnostic (_ + _ _)"], "+", [1, 1, 9, 99], "Add"]);
     // addGame("add-diagnostic-2x2", [["Diagnostic (_ _ + _ _)", "Diagnostic (_ _ + _ _)"], "+", [1, 1, 9, 10], "Add"]);
 
-    addGame("sub-2-1-6-4", [["2-1 to 6-4", "2-1 a 6-4"], "-", [2, 1, 6, 4], "Subtract"]);
-    addGame("sub-2-1-10-6", [["2-1 to 10-6", "2-1 a 10-6"], "-", [2, 1, 10, 6], "Subtract"]);
-    addGame("sub-4-2-15-10", [["4-2 to 15-10", "4-2 a 15-10"], "-", [4, 2, 15, 10], "Subtract"]);
-    addGame("sub-9-2-20-12", [["9-2 to 20-12", "9-2 a 20-12"], "-", [9, 2, 20, 12], "Subtract"]);
+    // addGame("sub-2-1-6-4", [["2-1 to 6-4", "2-1 a 6-4"], "-", [2, 1, 6, 4], "Subtract"]);
+    // addGame("sub-2-1-10-6", [["2-1 to 10-6", "2-1 a 10-6"], "-", [2, 1, 10, 6], "Subtract"]);
+    // addGame("sub-4-2-15-10", [["4-2 to 15-10", "4-2 a 15-10"], "-", [4, 2, 15, 10], "Subtract"]);
+    // addGame("sub-9-2-20-12", [["9-2 to 20-12", "9-2 a 20-12"], "-", [9, 2, 20, 12], "Subtract"]);
     // TO-DO: Make custom modes for Subtraction tab, to teach "Patterns"
+    addGame("sub-10-pairs", [["Learn Your 10s", "Learn Your 10s"], "-", [10, 1, 10, 9], "Subtract"]);
+    addGame("sub-col-2", [["Subtract by 2", "Subtract by 2"], "-", [10, 2, 19, 2], "Subtract"]);
+    addGame("sub-col-3", [["Subtract by 3", "Subtract by 3"], "-", [10, 3, 19, 3], "Subtract"]);
+    addGame("sub-col-4", [["Subtract by 4", "Subtract by 4"], "-", [10, 4, 19, 4], "Subtract"]);
+    addGame("sub-col-5", [["Subtract by 5", "Subtract by 5"], "-", [10, 5, 19, 5], "Subtract"]);
+    addGame("sub-col-6", [["Subtract by 6", "Subtract by 6"], "-", [10, 6, 19, 6], "Subtract"]);
+    addGame("sub-col-7", [["Subtract by 7", "Subtract by 7"], "-", [10, 7, 19, 7], "Subtract"]);
+    addGame("sub-col-8", [["Subtract by 8", "Subtract by 8"], "-", [10, 8, 19, 8], "Subtract"]);
+    addGame("sub-col-9", [["Subtract by 9", "Subtract by 9"], "-", [10, 9, 19, 9], "Subtract"]);
+    addGame("sub-diagnostic", [["10 x 10", "10 x 10"], "-", [10, 1, 19, 10], "Subtract"]);
+    
 
     addGame("mult-10", [["10 Times Table", "Table del 10"], "*", [2, 2, 10, 10], "Multiply"]);
     // addGame("mult-1-1-5-5", [["1x1 to 5x5", "1x1 a 5x5"], "*", [1, 1, 5, 5], "Multiply"]);
