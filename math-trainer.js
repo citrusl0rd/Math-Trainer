@@ -593,10 +593,10 @@ function getTabHTML(tabName) {
 function getTrainerHTML() {
     var s = '';
     s += '<div style="position:relative;  text-align:center; display:block; margin:auto; ">';
-    s += '<div  style="position:absolute; right:4%; top:15px; z-index: 22;" >';
+    s += '<div  style="position:absolute; right:8%; top:10px; z-index: 22;" >';
     s += '<button id="trainOpts" onclick="my.pop.popup()" style=" " class="togglebtn" >Options</button>';
     my.soundQ = true
-    s += soundBtnHTML()
+    // s += soundBtnHTML()
     s += '</div>';
     s += '<div id="summary" style="display: inline-block; position: absolute; left: 3%; top: 10px; width: 94%; text-align: center; vertical-align: bottom; border-radius: 10px; font: 18px Arial; color: #ffffff; background-color: #4499ee; box-shadow: 10px 10px 5px 0px rgba(40,40,40,0.75); z-index: 4; " >&nbsp;</div>';
     s += '<div id="v321" style="font: bold 180px Arial; color: rgba(0,0,255,0.5); position:absolute; left:' + (w / 2 - 50) + 'px; top:30px; text-align:center; transition: all linear 2s; z-index: 100;">&nbsp;</div>';
@@ -675,11 +675,11 @@ function loadGames() {
     // TO-DO: Make custom modes for Subtraction tab, to teach "Patterns"
 
     addGame("mult-10", [["10 Times Table", "Table del 10"], "*", [2, 2, 10, 10], "Multiply"]);
-    addGame("mult-1-1-5-5", [["1x1 to 5x5", "1x1 a 5x5"], "*", [1, 1, 5, 5], "Multiply"]);
-    addGame("mult-2-6-5-9", [["2x6 to 5x9", "2x6 a 5x9"], "*", [2, 6, 5, 9], "Multiply"]);
-    addGame("mult-6-2-9-5", [["6x2 to 9x5", "6x2 a 9x5"], "*", [6, 2, 9, 5], "Multiply"]);
-    addGame("mult-6-6-9-9", [["6x6 to 9x9", "6x6 a 9x9"], "*", [6, 6, 9, 9], "Multiply"]);
-    addGame("mult-2-2-9-9", [["2x2 to 9x9", "2x2 a 9x9"], "*", [2, 2, 9, 9], "Multiply"]);
+    // addGame("mult-1-1-5-5", [["1x1 to 5x5", "1x1 a 5x5"], "*", [1, 1, 5, 5], "Multiply"]);
+    // addGame("mult-2-6-5-9", [["2x6 to 5x9", "2x6 a 5x9"], "*", [2, 6, 5, 9], "Multiply"]);
+    // addGame("mult-6-2-9-5", [["6x2 to 9x5", "6x2 a 9x5"], "*", [6, 2, 9, 5], "Multiply"]);
+    // addGame("mult-6-6-9-9", [["6x6 to 9x9", "6x6 a 9x9"], "*", [6, 6, 9, 9], "Multiply"]);
+    // addGame("mult-2-2-9-9", [["2x2 to 9x9", "2x2 a 9x9"], "*", [2, 2, 9, 9], "Multiply"]);
     addGame("mult-row-2", [["2x row", ""], "*", [2, 2, 2, 10], "Multiply"]);
     addGame("mult-row-3", [["3x row", ""], "*", [3, 2, 3, 10], "Multiply"]);
     addGame("mult-row-4", [["4x row", ""], "*", [4, 2, 4, 10], "Multiply"]);
@@ -689,15 +689,15 @@ function loadGames() {
     addGame("mult-row-8", [["8x row", ""], "*", [8, 2, 8, 10], "Multiply"]);
     addGame("mult-row-9", [["9x row", ""], "*", [9, 2, 9, 10], "Multiply"]);
     addGame("mult-row-10", [["10x row", ""], "*", [10, 2, 10, 10], "Multiply"]);
-    addGame("mult-col-2", [["2x column", ""], "*", [2, 2, 10, 2], "Multiply"]);
-    addGame("mult-col-3", [["3x column", ""], "*", [2, 3, 10, 3], "Multiply"]);
-    addGame("mult-col-4", [["4x column", ""], "*", [2, 4, 10, 4], "Multiply"]);
-    addGame("mult-col-5", [["5x column", ""], "*", [2, 5, 10, 5], "Multiply"]);
-    addGame("mult-col-6", [["6x column", ""], "*", [2, 6, 10, 6], "Multiply"]);
-    addGame("mult-col-7", [["7x column", ""], "*", [2, 7, 10, 7], "Multiply"]);
-    addGame("mult-col-8", [["8x column", ""], "*", [2, 8, 10, 8], "Multiply"]);
-    addGame("mult-col-9", [["9x column", ""], "*", [2, 9, 10, 9], "Multiply"]);
-    addGame("mult-col-10", [["10x column", ""], "*", [2, 10, 10, 10], "Multiply"]);
+    // addGame("mult-col-2", [["2x column", ""], "*", [2, 2, 10, 2], "Multiply"]);
+    // addGame("mult-col-3", [["3x column", ""], "*", [2, 3, 10, 3], "Multiply"]);
+    // addGame("mult-col-4", [["4x column", ""], "*", [2, 4, 10, 4], "Multiply"]);
+    // addGame("mult-col-5", [["5x column", ""], "*", [2, 5, 10, 5], "Multiply"]);
+    // addGame("mult-col-6", [["6x column", ""], "*", [2, 6, 10, 6], "Multiply"]);
+    // addGame("mult-col-7", [["7x column", ""], "*", [2, 7, 10, 7], "Multiply"]);
+    // addGame("mult-col-8", [["8x column", ""], "*", [2, 8, 10, 8], "Multiply"]);
+    // addGame("mult-col-9", [["9x column", ""], "*", [2, 9, 10, 9], "Multiply"]);
+    // addGame("mult-col-10", [["10x column", ""], "*", [2, 10, 10, 10], "Multiply"]);
 
     // addGame("mult-12", [["12 Times Table", "Table del 12"], "*", [2, 2, 12, 12], "By 12"]);
     // addGame("mult-row-12-2", [["2x12 row", ""], "*", [2, 2, 2, 12], "By 12"]);
@@ -740,7 +740,7 @@ function loadGames() {
     addGame("div-7", [["Divide by 7", ""], "/", [2, 7, 10, 7], "Divide"]);
     addGame("div-8", [["Divide by 8", ""], "/", [2, 8, 10, 8], "Divide"]);
     addGame("div-9", [["Divide by 9", ""], "/", [2, 9, 10, 9], "Divide"]);
-    addGame("div-2-9", [["Divide by 2 to 10", ""], "/", [2, 2, 10, 10], "Divide"]);
+    addGame("div-2-9", [["Divide by All", ""], "/", [2, 2, 10, 10], "Divide"]);
 }
 function addGame(gameID, opts) {
     my.games.push({
@@ -1234,7 +1234,7 @@ function getCookie(c_name) {
 function soundBtnHTML() {
     s = ''
     s += '<style> '
-    s += ' .speaker { height: 30px; width: 30px; position: relative; overflow: hidden; display: inline-block; vertical-align:top; } '
+    s += ' .speaker { height: 30px; width: 30px; position: relative; overflow: hidden; display: inline-block; vertical-align:top; margin-left: 10px; margin-top: -4px; } '
     s += ' .speaker span { display: block; width: 9px; height: 9px; background-color: blue; margin: 10px 0 0 1px; }'
     s += ' .speaker span:after { content: ""; position: absolute; width: 0; height: 0; border-style: solid; border-color: transparent blue transparent transparent; border-width: 10px 16px 10px 15px; left: -13px; top: 5px; }'
     s += ' .speaker span:before { transform: rotate(45deg); border-radius: 0 60px 0 0; content: ""; position: absolute; width: 5px; height: 5px; border-style: double; border-color: blue; border-width: 7px 7px 0 0; left: 18px; top: 9px; transition: all 0.2s ease-out; }'
