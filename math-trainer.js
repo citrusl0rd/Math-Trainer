@@ -663,8 +663,9 @@ function loadGames() {
     addGame("add-row-7", [["Add by 7", "Add by 7"], "+", [7, 1, 7, 10], "Add"]);
     addGame("add-row-8", [["Add by 8", "Add by 8"], "+", [8, 1, 8, 10], "Add"]);
     addGame("add-row-9", [["Add by 9", "Add by 9"], "+", [9, 1, 9, 10], "Add"]);
-    addGame("add-diagnostic-5", [["5 x 5", "5 x 5"], "+", [1, 1, 5, 5], "Add"]);
-    addGame("add-diagnostic-10", [["10 x 10", "10 x 10"], "+", [1, 1, 10, 10], "Add"]);
+    addGame("add-diagnostic-5x5", [["5 x 5", "5 x 5"], "+", [1, 1, 5, 5], "Add"]);
+    addGame("add-diagnostic-5x10", [["5 x 10", "5 x 10"], "+", [1, 1, 10, 5], "Add"]);
+    addGame("add-diagnostic-10x10", [["10 x 10", "10 x 10"], "+", [1, 1, 10, 10], "Add"]);
     // addGame("add-diagnostic-1x1", [["Diagnostic (_ + _)", "Diagnostic (_ + _)"], "+", [1, 1, 9, 10], "Add"]);
     // addGame("add-diagnostic-1x2", [["Diagnostic (_ + _ _)", "Diagnostic (_ + _ _)"], "+", [1, 1, 9, 99], "Add"]);
     // addGame("add-diagnostic-2x2", [["Diagnostic (_ _ + _ _)", "Diagnostic (_ _ + _ _)"], "+", [1, 1, 9, 10], "Add"]);
